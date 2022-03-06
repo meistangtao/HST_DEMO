@@ -1,10 +1,10 @@
-package com.hst;
+package com.hst.api;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HstApplicationTests {
+class HstApiApplicationTests {
 
     @Test
     void contextLoads() {

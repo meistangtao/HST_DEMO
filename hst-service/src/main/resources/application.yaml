@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: hst-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 129.204.116.186:8848
+    refresh:
+      enabled: true
+dubbo:
+  scan:
+    base-packages: com.alibaba.cloud.dubbo.bootstrap
+  protocol:
+    name: dubbo
